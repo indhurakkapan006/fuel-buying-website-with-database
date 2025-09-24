@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Custom styles */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+input, button, select {
+  @apply focus:outline-none;
+}
